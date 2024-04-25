@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 150vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(254, 222, 251);
+}
+
+header {
+    background-color: #31053B;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #31053B;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: rgb(255, 250, 158);
+    text-decoration: none;
+    margin-right: 20px;
+    
+}
+
+nav a:hover {
+    border-bottom: 2px solid;  
+    color: rgb(255, 250, 158);
+    ;
+}
+
+footer {
+    background-color: #31053B;
+    color: rgb(255, 250, 158);
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.text-column {
+    width: 45%; /* Define a largura da coluna de texto */
+    height: 75%;
+    position: absolute;
+    left: 30%; /* Posic/iona a coluna no canto esquerdo */
+    bottom: 0%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start;
+}
+
+h1 {
+
+    color: rgb(102, 0, 139);
+    text-align: center;
+    text-align: justify;
+      font-family: "Tilt Neon", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 50px;
+      font-variation-settings:
+        "XROT" 0,
+        "YROT" 0;
+    }
+
+h2 {
+    color: rgb(102, 0, 139);
+    text-align: center;
+    text-align: justify;
+      font-family: "Tilt Neon", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 25px;
+      font-variation-settings:
+        "XROT" 0,
+        "YROT" 0;
+    }
+    .content {
+        display: flex;
+        justify-content: right;
+        padding: 500px;
+       
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3 colunas com a mesma largura */
+        gap: 10px; /* Espaçamento entre as células */
+        position: relative;
+       
+    }
+    
+    .grid-item img {
+        width: 100%; /* Imagens ocupam toda a largura da célula */
+        height: auto; /* Altura é ajustada automaticamente para manter a proporção */
+       
+    }
